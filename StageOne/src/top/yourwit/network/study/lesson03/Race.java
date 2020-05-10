@@ -12,5 +12,6 @@ public class Race implements Runnable {
     public static void main(String[] args) {
         Race race = new Race();
         new Thread(race,"Test");
+        new Thread(race,"Test2");
     }
 }
