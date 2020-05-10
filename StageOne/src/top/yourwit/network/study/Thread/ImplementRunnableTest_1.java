@@ -1,11 +1,11 @@
-package top.yourwit.network.study.lesson03;
+package top.yourwit.network.study.Thread;
 
 // 多个线程同时操作同一个对象
 // 买火车票
 
 
 //发现问题: 多个线程操作同一个资源的情况下,线程不安全
-public class TestThread4 implements Runnable{
+public class ImplementRunnableTest_1 implements Runnable{
 
     //票数
     private int ticketNums = 10;
@@ -26,7 +26,7 @@ public class TestThread4 implements Runnable{
     }
 
     public static void main(String[] args) {
-        TestThread4 ticket = new TestThread4();
+        ImplementRunnableTest_1 ticket = new ImplementRunnableTest_1();
 
         new Thread(ticket,"小明").start();
         new Thread(ticket,"老师").start();

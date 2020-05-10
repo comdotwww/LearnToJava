@@ -1,4 +1,4 @@
-package top.yourwit.network.study.lesson03;
+package top.yourwit.network.study.Thread;
 
 import org.apache.commons.io.FileUtils;
 
@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.net.URL;
 
 //练习 Thread ,实现多线程同步下载图片
-public class TestThread2 extends Thread{
+public class InheritThreadTest extends Thread{
     private String url;
     private String name;
 
-    public TestThread2(String url, String name) {
+    public InheritThreadTest(String url, String name) {
         this.url = url;
         this.name = name;
     }
@@ -25,9 +25,9 @@ public class TestThread2 extends Thread{
     }
 
     public static void main(String[] args) {
-        TestThread2 t1 = new TestThread2("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图1.jpg");
-        TestThread2 t2 = new TestThread2("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图2.jpg");
-        TestThread2 t3 = new TestThread2("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图3.jpg");
+        InheritThreadTest t1 = new InheritThreadTest("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图1.jpg");
+        InheritThreadTest t2 = new InheritThreadTest("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图2.jpg");
+        InheritThreadTest t3 = new InheritThreadTest("https://ae01.alicdn.com/kf/H6e76346b577e42d6bfb25a1d7dfb1be90.jpg","博客图3.jpg");
 
         t1.start();
         t2.start();
@@ -38,7 +38,6 @@ public class TestThread2 extends Thread{
 //        下载文件名为：博客图2.jpg
     }
 }
-
 
 //下载器
 class WebDownloader{

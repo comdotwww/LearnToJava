@@ -1,9 +1,9 @@
-package top.yourwit.network.study.lesson03;
+package top.yourwit.network.study.Thread;
 
 //  模拟龟兔赛跑
 //  Simulate Tortoise and Hare in Multithreading
 
-public class Race implements Runnable {
+public class ImplementRunnableTest_2 implements Runnable {
 
     //胜利者
     private static String winner;
@@ -47,8 +47,8 @@ public class Race implements Runnable {
     }
 
     public static void main(String[] args) {
-        Race race = new Race();
-        new Thread(race, "rabbit").start();     //兔子线程
-        new Thread(race, "tortoise").start();    //乌龟线程
+        ImplementRunnableTest_2 implementRunnableTest2 = new ImplementRunnableTest_2();
+        new Thread(implementRunnableTest2, "rabbit").start();     //兔子线程
+        new Thread(implementRunnableTest2, "tortoise").start();    //乌龟线程
     }
 }
