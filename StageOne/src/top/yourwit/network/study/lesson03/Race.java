@@ -13,5 +13,6 @@ public class Race implements Runnable {
         Race race = new Race();
         new Thread(race,"Test");
         new Thread(race,"Test2");
+        new Thread(race,"Test3");
     }
 }
