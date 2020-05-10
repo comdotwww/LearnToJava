@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4c2a0c4-88db-475b-b259-29fb79ee89de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WaFyNY098N64G1itLiJRVkf4V7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
+  </component>
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yourwit.helloworld.HelloWorld" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.yourwit.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.yourwit.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.helloworld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4c2a0c4-88db-475b-b259-29fb79ee89de" name="Default Changelist" comment="" />
+      <created>1579380052366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579380052366</updated>
+      <workItem from="1579380056226" duration="125000" />
+      <workItem from="1580886717741" duration="256000" />
+      <workItem from="1580887208364" duration="74000" />
+      <workItem from="1584891482662" duration="35000" />
+      <workItem from="1585211791802" duration="69000" />
+      <workItem from="1585211876128" duration="509000" />
+      <workItem from="1585212568665" duration="19000" />
+      <workItem from="1585212671155" duration="2221000" />
+      <workItem from="1588152732895" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Inspections" timestamp="1585211929535">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="70" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1585211929535" />
+    <state x="152" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585212262674">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="152" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1585212262674" />
+    <state x="449" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585211809891">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1585211809891" />
+    <state x="467" y="68" key="#helloworld" timestamp="1585212160296">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="467" y="68" key="#helloworld/0.0.1536.864@0.0.1536.864" timestamp="1585212160296" />
+    <state width="1342" height="194" key="GridCell.Tab.0.bottom" timestamp="1585212586818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579380181425" />
+    <state width="1342" height="194" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585212586818" />
+    <state width="1342" height="194" key="GridCell.Tab.0.center" timestamp="1585212586818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579380181425" />
+    <state width="1342" height="194" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585212586818" />
+    <state width="1342" height="194" key="GridCell.Tab.0.left" timestamp="1585212586818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579380181425" />
+    <state width="1342" height="194" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585212586818" />
+    <state width="1342" height="194" key="GridCell.Tab.0.right" timestamp="1585212586818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579380181425" />
+    <state width="1342" height="194" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585212586818" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1580886856091">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580886856091" />
+    <state x="449" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585211877522">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579380057043" />
+    <state x="449" y="249" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585211877522" />
+  </component>
+</project>
