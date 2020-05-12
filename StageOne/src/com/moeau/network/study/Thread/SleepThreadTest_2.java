@@ -3,7 +3,7 @@ package com.moeau.network.study.Thread;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-//每一个对象都有一把锁，sleep()不会释放锁
+//每一个对象都有一把锁，sleep() 不会释放锁
 //模拟倒计时
 public class SleepThreadTest_2 {
     public static void main(String[] args) {

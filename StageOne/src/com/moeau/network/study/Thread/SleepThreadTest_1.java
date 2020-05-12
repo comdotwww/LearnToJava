@@ -1,6 +1,6 @@
 package com.moeau.network.study.Thread;
 
-//每一个对象都有一把锁，sleep()不会释放锁
+//每一个对象都有一把锁，sleep() 不会释放锁
 //模拟网络延时：放大问题的发生性
 public class SleepThreadTest_1 implements Runnable{
 
