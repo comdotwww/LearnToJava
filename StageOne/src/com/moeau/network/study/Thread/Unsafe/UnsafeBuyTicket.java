@@ -24,7 +24,9 @@ class BuyTicket implements Runnable {
 
         }
     }
-    private void buy() {
+
+    //synchronized 同步方法 锁得是 this
+    private synchronized void buy() {
         //判断是否有票
         if (ticketNums <= 0) {
             flag = false;
@@ -37,6 +39,6 @@ class BuyTicket implements Runnable {
             e.printStackTrace();
         }
         //买票
-        System.out.println(Thread.currentThread().getName() + "has bought the ticket " + ticketNums--);
+        System.out.println(Thread.currentThread().getName() + " has bought the ticket " + ticketNums--);
     }
 }

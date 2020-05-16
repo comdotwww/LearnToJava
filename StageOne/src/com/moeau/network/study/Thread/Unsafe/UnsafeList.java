@@ -9,7 +9,10 @@ public class UnsafeList {
         for (int i = 0; i < 10000; i++) {
             new Thread(
                     ()->{
-                        list.add(Thread.currentThread().getName());
+                        synchronized(list){
+                            list.add(Thread.currentThread().getName());
+                        }
+//                        list.add(Thread.currentThread().getName());
                     }
             ).start();
         }

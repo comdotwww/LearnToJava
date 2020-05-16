@@ -4,13 +4,14 @@ package com.moeau.network.study.Thread.Unsafe;
 //2个人去银行取钱，账户
 public class UnsafeBank {
     public static void main(String[] args) {
-        Account account = new Account(100,"结婚基金");
+        Account account = new Account(1000,"结婚基金");
 
-        Drawing you = new Drawing(account,50,"You");
-        Drawing girlfriend = new Drawing(account,100,"girlfriend");
+        Drawing you = new Drawing(account,50,"你");
+        Drawing girlfriend = new Drawing(account,100,"女朋友");
 
-        you.start();
         girlfriend.start();
+        you.start();
+
     }
 }
 
@@ -38,26 +39,49 @@ class Drawing extends Thread {
 
     }
 
+    // synchronized 默认锁的是 this
     //取钱
     @Override
-    public void run() {
-        //判断有没有钱
-        if (account.money - drawingMoney <= 0) {
-            System.out.println(Thread.currentThread().getName() + "钱不够，取不了");
-            return;
+    public  void run() {
+
+        //锁的是变化的量，需要增删改的对象
+        synchronized (account){
+            //判断有没有钱
+            if (account.money - drawingMoney <= 0) {
+                System.out.println(Thread.currentThread().getName() + "钱不够，取不了");
+                return;
+            }
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            account.money = account.money - drawingMoney;
+            nowMoney = nowMoney + drawingMoney;
+            System.out.println(account.name + "余额为：" + account.money);
+            //  <=> System.out.println(Thread.currentThread());
+            System.out.println(this.getName() + "手里的钱：" + nowMoney);
         }
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        account.money = account.money - drawingMoney;
-        nowMoney = nowMoney + drawingMoney;
-        System.out.println(account.name + "余额为：" + account.money);
-        //  <=> System.out.println(Thread.currentThread());
-        System.out.println(this.getName() + "手里的钱：" + nowMoney);
+//        //判断有没有钱
+//        if (account.money - drawingMoney <= 0) {
+//            System.out.println(Thread.currentThread().getName() + "钱不够，取不了");
+//            return;
+//        }
+//
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
+//        account.money = account.money - drawingMoney;
+//        nowMoney = nowMoney + drawingMoney;
+//        System.out.println(account.name + "余额为：" + account.money);
+//        //  <=> System.out.println(Thread.currentThread());
+//        System.out.println(this.getName() + "手里的钱：" + nowMoney);
     }
 }
 
