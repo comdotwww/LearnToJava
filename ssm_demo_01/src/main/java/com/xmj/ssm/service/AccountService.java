@@ -14,7 +14,7 @@ public interface AccountService {
     public List<Account> findAll();
 
     /**
-     * 添加账户
+     * 添加新账户
      *
      * @param account
      * @return
