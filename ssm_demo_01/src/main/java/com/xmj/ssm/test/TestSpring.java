@@ -10,9 +10,9 @@ public class TestSpring {
     @Test
     public void testFindAll(){
         //加载配置
-        ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
-        AccountService as = (AccountService) ac.getBean("accountService");
-        as.findAll();
-        as.addAccount(new Account());
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        AccountService accountService = (AccountService) applicationContext.getBean("accountService");
+        accountService.findAll();
+        accountService.addAccount(new Account());
     }
 }
