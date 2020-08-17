@@ -11,6 +11,13 @@
     <title>主页</title>
 </head>
 <body>
-    <a href="account/findAll">查询所有</a>
+    <h2 align="center"><a href="account/findAll">查询所有</a></h2>
+<div align="center">
+    <form action="account/add" method="post">
+        姓名：<input type="text" name="name" /><br/>
+        余额：<input type="text" name="balance" /><br/>
+        <input type="submit" value="添加"/><br/>
+    </form>
+</div>
 </body>
 </html>
